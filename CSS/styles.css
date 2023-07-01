@@ -61,3 +61,9 @@ nav ul li a:hover:before {
     transform: scaleX(1);
     transform-origin: left;
 }
+
+@media (width <= 600px) {
+    body {
+        background-color: blue;
+    }
+}
